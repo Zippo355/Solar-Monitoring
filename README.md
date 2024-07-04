@@ -4,5 +4,5 @@ This scripts works only using for your PV system if you have an EPEVER Solar Cha
 You will need to run the influxdb service using: "sudo systemctl start influxdb". 
 You can verify if it's running using: "sudo systemctl status influxdb"
 After following the Grafana installation guide: "https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/" , start the Grafana service:
-sudo systemctl start grafana-server
-sudo systemctl enable grafana-server
+"sudo systemctl start grafana-server", 
+"sudo systemctl enable grafana-server"
