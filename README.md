@@ -5,4 +5,6 @@ You will need to run the influxdb service using: "sudo systemctl start influxdb"
 You can verify if it's running using: "sudo systemctl status influxdb" <br>
 After following the Grafana installation guide: "https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/" , start the Grafana service: <br>
 "sudo systemctl start grafana-server" <br> 
-"sudo systemctl enable grafana-server"
+"sudo systemctl enable grafana-server" <br>
+Accessing the InfluxDB database from a browser: "http://localhost:8086" or "http://your-raspberrypi-ip-address:8086" <br>
+Accessing the Grafana Dashboard from a browser: "http://localhost:3000" or "http://your-raspberrypi-ip-address:3000"
