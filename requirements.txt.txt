@@ -1,0 +1,2 @@
+python -m pip install minimalmodbus
+python -m pip install influxdb-client
