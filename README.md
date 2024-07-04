@@ -1,6 +1,6 @@
 # Solar-Monitoring
 A Python script used in a Raspberry Pi Model 4 B to monitor the solar parameters of a photovoltaic system in real-time, using Grafana as a monitoring platform. <br>
-This scripts works only using for your PV system if you have an EPEVER Solar Charge Controller, as the registers defined in the code are the modbus addresses that are unique to this specific controller, and a RS485 to USB cable in order to communicate with the controller. Also, you will need to install the packages that can be found in the requirements.txt file using: "python -m pip install -r requirements.txt" <br>
+This scripts works only if you have an EPEVER Solar Charge Controller, as the registers defined in the code are the modbus addresses that are unique to this specific controller, and a RS485 to USB cable in order to communicate with the controller. Also, you will need to install the packages that can be found in the requirements.txt file using: "python -m pip install -r requirements.txt" <br>
 You will need to run the influxdb service using: "sudo systemctl start influxdb". <br>
 You can verify if it's running using: "sudo systemctl status influxdb" <br>
 After following the Grafana installation guide: "https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/" , start the Grafana service: <br>
